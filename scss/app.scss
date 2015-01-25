@@ -41,6 +41,9 @@
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
 
+body{
+	background-color: black;
+}
 
 
 .hero-image{
@@ -85,4 +88,35 @@
 
 .row{
 	max-width: 100rem;
+}
+
+.jobs-container{
+	&:before, &:after{
+		content:"";
+    display:table;
+	}
+
+	&:after{
+		clear: both;
+	}
+
+	.projects{
+		&:hover{
+			cursor: pointer;
+			h5{
+				text-decoration: underline;
+				transition: text-decoration .50s;
+			}
+			
+		}
+  	img{
+  		opacity: .8;
+  		-webkit-transition: -webkit-filter .30s;
+  		-webkit-filter: blur(15px);
+  		&:hover{
+    		-webkit-transition: -webkit-filter .30s;
+			}
+  	}
+		
+	}
 }
