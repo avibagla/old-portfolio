@@ -9067,18 +9067,24 @@ body {
   color: white;
 }
 
-/* line 71, ../scss/app.scss */
+@media (max-width: 800px) {
+  /* line 74, ../scss/app.scss */
+  .hero-area .title-text h3 {
+    font-size: 3em;
+  }
+}
+/* line 82, ../scss/app.scss */
 .projects {
   position: relative;
 }
-/* line 73, ../scss/app.scss */
+/* line 84, ../scss/app.scss */
 .projects .project-title-text {
   z-index: 10;
   position: absolute;
   box-sizing: border-box;
   width: 100%;
 }
-/* line 79, ../scss/app.scss */
+/* line 90, ../scss/app.scss */
 .projects .project-title-text h5 {
   font-family: 'Vollkorn', serif;
   font-size: 3em;
@@ -9087,36 +9093,36 @@ body {
   color: white;
 }
 
-/* line 89, ../scss/app.scss */
+/* line 100, ../scss/app.scss */
 .row {
   max-width: 100rem;
 }
 
-/* line 94, ../scss/app.scss */
+/* line 105, ../scss/app.scss */
 .jobs-container:before, .jobs-container:after {
   content: "";
   display: table;
 }
-/* line 99, ../scss/app.scss */
+/* line 110, ../scss/app.scss */
 .jobs-container:after {
   clear: both;
 }
-/* line 104, ../scss/app.scss */
+/* line 115, ../scss/app.scss */
 .jobs-container .projects:hover {
   cursor: pointer;
 }
-/* line 106, ../scss/app.scss */
+/* line 117, ../scss/app.scss */
 .jobs-container .projects:hover h5 {
   text-decoration: underline;
   transition: text-decoration .50s;
 }
-/* line 112, ../scss/app.scss */
+/* line 123, ../scss/app.scss */
 .jobs-container .projects img {
   opacity: .8;
   -webkit-transition: -webkit-filter .30s;
   -webkit-filter: blur(15px);
 }
-/* line 116, ../scss/app.scss */
+/* line 127, ../scss/app.scss */
 .jobs-container .projects img:hover {
   -webkit-transition: -webkit-filter .30s;
 }

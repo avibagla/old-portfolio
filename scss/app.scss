@@ -68,6 +68,17 @@ body{
 	}
 }
 
+@media (max-width: 800px) {
+	.hero-area{
+		.title-text{
+			h3{
+				font-size: 3em;
+			}
+		}
+	}
+	
+}
+
 .projects{
 	position: relative;
 	.project-title-text{
