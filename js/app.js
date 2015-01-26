@@ -7,6 +7,9 @@ $(document).ready(function(){
 		$(this).children('img').css('-webkit-filter', 'none');
 	});
 	$('.projects').mouseout(function(){
-		$(this).children('img').css('-webkit-filter', 'blur(15px)');
+		$(this).children('img').css('-webkit-filter', 'blur(5px)');
+	});
+	$('.projects').mousedown(function(){
+		$(this).children('img').css('-webkit-filter', 'none');
 	});
 });
